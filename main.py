@@ -1,10 +1,11 @@
-print("Hello, ZeroСoder!")
+import pygame
+from game import Game
 
-def test():
-    pass
+def main():
+    pygame.init()
+    game = Game()
+    game.run()
+    pygame.quit()
 
-def test2():
-    pass
-
-def test3():
-    pass
+if __name__ == "__main__":
+    main()
